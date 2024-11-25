@@ -1,0 +1,9 @@
+byte 0    | byte 1         | bytes 2-5       | bytes 6-9 |
+node_type | is_root        | parent_pointer  | num_cells |
+
+INTERNAL: 
+4 bytes   | 4 bytes       |
+key       | child_pointer |
+
+(30 cells maximum + 1 rightmost pointer)
+
